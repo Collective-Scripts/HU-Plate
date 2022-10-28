@@ -5,11 +5,11 @@
 ``ox_inventory/data/items.lua``
 
 ```lua
-    ['license_plate'] = {
-		label = 'License Plate',
-		weight = 50,
-		stack = false
-	},
+['license_plate'] = {
+	label = 'License Plate',
+	weight = 50,
+	stack = false
+},
 ```
 
 ```ox_inventory/modules/items/client.lua```
