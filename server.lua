@@ -25,6 +25,8 @@ lib.callback.register('cfx-hakdog-license:update', function(source, oldP, newP)
                 theReturnValue = true
             end  
         end
+    else
+        CollectiveS.Notification(_source, 3, 'This plate is already been used on another vehicle')
     end
     return theReturnValue
 end)

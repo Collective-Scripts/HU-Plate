@@ -16,8 +16,6 @@ function ChangeLicensePlate()
         if hasChanged then
             SetVehicleNumberPlateText(vehicle, newplate)
             CollectiveC.Notification(1, 'Your vehicle plate has been changed.')
-        else
-            CollectiveC.Notification(3, 'Invalid.')
         end
     end, oldplate, newplate)
 end
